@@ -1,0 +1,10 @@
+import tkinter
+v=tk.Tk()
+v.title('counting second')
+Button1=Button(guitext='stop',width='25',command=v.destroy)
+Button2=Button(guitext='cancle',width='25',command=v.destroy)
+Button3=Button(guitext='submit',width='25',command=v.destroy)
+Button1.pack()
+Button2.pack()
+Button3.pack()
+v.mainloop()
